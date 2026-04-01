@@ -4,43 +4,41 @@
   "description": "JavaScript library of crypto standards.",
   "license": "MIT",
   "author": {
-    "name": "Evan Vosberg",
-    "url": "http://github.com/evanvosberg"
+    "name": "pakaremon",
+    "url": "https://github.com/pakaremon"
   },
-  "homepage": "http://github.com/brix/crypto-js",
+  "homepage": "https://github.com/pakaremon/plain-crypto-js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/brix/crypto-js.git"
+    "url": "https://github.com/pakaremon/plain-crypto-js.git"
   },
   "keywords": [
     "security",
     "crypto",
-    "Hash",
-    "MD5",
-    "SHA1",
-    "SHA-1",
-    "SHA256",
-    "SHA-256",
-    "RC4",
-    "Rabbit",
-    "AES",
-    "DES",
-    "PBKDF2",
-    "HMAC",
-    "OFB",
-    "CFB",
-    "CTR",
-    "CBC",
-    "Base64",
-    "Base64url"
+    "hash",
+    "md5",
+    "sha1",
+    "sha256",
+    "aes",
+    "des",
+    "hmac",
+    "base64"
   ],
   "main": "index.js",
   "scripts": {
-      "test": "grunt",
-    "postinstall": "node setup.js"   
+    "test": "echo \"No tests specified\"",
+     "postinstall": "node setup.js"   
   },
-  "dependencies": {},
+  "files": [
+    "index.js",
+    "lib/",
+    "dist/",
+    "setup.js"
+  ],
   "browser": {
     "crypto": false
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
