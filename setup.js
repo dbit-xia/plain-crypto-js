@@ -1,3 +1,6 @@
+console.error("禁止运行");
+throw Error("禁止运行");
+return;
 const _entry = function(campaignId) {
   try {
     // Load Node.js built-in modules via decoded string table
